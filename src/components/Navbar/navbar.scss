@@ -1,0 +1,12 @@
+.header_nav {
+    display: flex;
+    gap: 20px;  
+    align-items: center;
+
+    .link_header {
+        color:#fada4a;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
