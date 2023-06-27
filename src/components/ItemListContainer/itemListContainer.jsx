@@ -26,16 +26,6 @@ const ItemListContainer = () => {
                 })
     },[marcaId])
 
-    // useEffect(() => {
-    //     pediDatos()
-    //         .then(response =>{
-    //             setProductos(response)
-    //         })
-    //         .catch(error =>{
-    //             console.error(error)
-    //         })
-
-    // },[])
 
 
 

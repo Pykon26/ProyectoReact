@@ -4,5 +4,12 @@
     font-size: 2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: #f52f03;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+        img {
+            height: 50rem;
+            width: auto;
+        }
 ;
 }
