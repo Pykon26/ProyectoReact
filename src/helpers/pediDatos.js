@@ -12,7 +12,7 @@ export const getProductosById= (productoId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
 
-            resolve(productos.find(prod => prod.id === productoId))
+            resolve(productos.find(prod => prod.id === parseInt(productoId)))
 
         }, 1000)
     })
@@ -24,7 +24,7 @@ export const getProductosByMarca= (productoMarca) => {
     return new Promise((resolve) => {
         setTimeout(() => {
 
-            resolve(productos.find(prod => prod.marca === productoMarca))
+            resolve(productos.filter(prod => prod.marca === productoMarca))
 
         }, 1000)
     })
