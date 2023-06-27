@@ -24,7 +24,7 @@
                 </section>
 
                 <footer>
-              
+                    <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log('Cantidad Agregada')}/>
                 </footer>
             </div>
 
