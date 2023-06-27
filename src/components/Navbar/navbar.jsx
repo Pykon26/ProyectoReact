@@ -1,15 +1,17 @@
 import './navbar.scss'
+import { Link } from 'react-router-dom'
 
 const navbar = () => {
 
     return(
 
         <nav className='header_nav'> 
-
-        <a href=""className="link_header">Inicio</a>
-        <a href=""className="link_header">Productos</a>
-        <a href=""className="link_header">Nosotros</a>
-        <a href="" className="link_header">Ubicacion</a>
+        
+        <Link className="header__link" to="/">Inicio</Link>
+        <Link className="header__link" to="/productos/Kongo">Kongo</Link>
+        <Link className="header__link" to="/productos/H&W">H&W</Link>
+        <Link className="header__link" to="/productos/Luxo">Luxo</Link>
+        <Link className="header__link" to="/productos/G&F">Garage & Friends</Link>
 
         </nav>   
     )

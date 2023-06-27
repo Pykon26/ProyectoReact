@@ -9,7 +9,7 @@ const ItemCard = ({id, nombre, precio,marca, img}) => {
             <img src={img} alt={nombre}/>
             <p>Marca: {marca}</p>
             <p>Precio: ${precio}</p>
-            {/* <Link className="btn btn-primary" to={`/detail/${id}`}>Ver más</Link> */}
+            <Link className="btn btn-primary" to={`/detalle/${id}`}>Ver más</Link>
         </div>
     )
 }

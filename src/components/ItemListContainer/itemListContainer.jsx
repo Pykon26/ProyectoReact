@@ -1,7 +1,8 @@
 import './ItemListContainer.scss'
 import ItemList from '../ItemList/ItemList'
 import { useState, useEffect } from 'react'
-import { pediDatos } from '../../helpers/pediDatos'
+import { pediDatos, getProductosByMarca } from '../../helpers/pediDatos'
+import { useParams } from 'react-router-dom'
 
 
 
@@ -10,16 +11,31 @@ import { pediDatos } from '../../helpers/pediDatos'
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     
+    const {marcaId} = useParams()
+
+
     useEffect(() => {
-        pediDatos()
-            .then(response =>{
+        const asyncFunc = marcaId ? getProductosByMarca : pediDatos
+
+        asyncFunc(marcaId)
+            .then(response => {
                 setProductos(response)
             })
             .catch(error =>{
                 console.error(error)
-            })
+                })
+    },[marcaId])
 
-    },[])
+    // useEffect(() => {
+    //     pediDatos()
+    //         .then(response =>{
+    //             setProductos(response)
+    //         })
+    //         .catch(error =>{
+    //             console.error(error)
+    //         })
+
+    // },[])
 
 
 

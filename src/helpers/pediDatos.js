@@ -20,3 +20,15 @@ export const getProductosById= (productoId) => {
  
 
 }
+export const getProductosByMarca= (productoMarca) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+
+            resolve(productos.find(prod => prod.marca === productoMarca))
+
+        }, 1000)
+    })
+
+ 
+
+}
