@@ -1,14 +1,15 @@
 import cart from '../../assets/cart-shopping-solid.svg'
 import './Carrito.scss'
-
+import { GiShoppingBag } from "react-icons/gi";
 
 const carrito = ()=>{
 
     return (
 
         <div className='carrito'>
-                <img src={cart} alt="carrito" className='foto_carrito'/>
-                0
+           <div><GiShoppingBag /></div>
+            <p>0</p>   
+
         </div>
     )
 

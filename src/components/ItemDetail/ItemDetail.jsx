@@ -9,9 +9,11 @@
                 <h2>
                     {nombre}
                 </h2>
+                <hr />
                 <picture>
                     <img src={img} alt={nombre} />
                 </picture>
+                <div className='info-container'>
                 <section>
                     <p className="Info">
                     <span>Marca:</span> {marca}
@@ -27,6 +29,8 @@
                 <footer>
                     <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log('Cantidad Agregada')}/>
                 </footer>
+
+                </div>
             </div>
 
         )

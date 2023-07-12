@@ -1,5 +1,6 @@
 import { useState   } from "react"
-import './ItemCount'
+import './ItemCount.scss'
+import { FaMinus, FaPlus } from 'react-icons/fa';
 
 const ItemCount = ({stock, initial, onAdd}) => {
     const [quantity, SetQuantity] = useState(initial)
@@ -20,11 +21,11 @@ const ItemCount = ({stock, initial, onAdd}) => {
     return (
         <div className='container-count'>
             <div className="btn-cont">
-                <button onClick={decrement}>-</button>
+                <button onClick={decrement}><FaMinus /></button>
                 <h4>{quantity}</h4>
-                <button onClick={increment}>+</button>
+                <button onClick={increment}><FaPlus /></button>
             </div>
-            <div>
+            <div className="btn-cart">
                 <button onClick={()=> onAdd(quantity)} disabled={!stock}>Agregar al carrito</button>
             </div>
         </div>

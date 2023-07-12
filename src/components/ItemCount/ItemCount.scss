@@ -1,4 +1,61 @@
-.btn-cont{
-    display: flex;
-    flex-direction: row;
+.container-count{
+
+  
+    .btn-cont{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+
+    button {
+        width: 3rem;
+        border: 2.5px solid black;
+        border-radius: 8px;
+        background-color: transparent;
+        color: #000000;
+        cursor: pointer;
+        font-size: 24px;
+        transition: transform 0.4s ease;
+        
+        &:hover {
+        transform: scale(1.08);
+        background-color: #000000;
+        color: white;
+        }
+    }
+
+    h4 {
+        margin: 0 10px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+          
+    }
+
+    .btn-cart {
+        display: flex;
+        justify-content: center;
+      
+        button {
+         
+          background-color: #2c3e50;
+          color: #ffffff;
+          border: none;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      
+          &:hover {
+            background-color: #34495e;
+          }
+      
+          &:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+          }
+        }
+      }
+
 }
