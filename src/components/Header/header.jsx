@@ -1,6 +1,6 @@
 import './header.scss'
 import logo from '../../assets/Logo Fresco.jpg'
-import Cart  from '../Cart/Cart'
+import Carrito  from '../Carrito/Carrito'
 import Navbar from '../Navbar/navbar'
 import { Link } from 'react-router-dom'
 
@@ -15,15 +15,8 @@ const header = () => {
                 <Link to='/'>
                     <img src={logo} alt="logo" className='header_logo'/>
                 </Link>
-
-                    
-
-
-                 
-
                     <Navbar /> 
-
-                    <Cart /> 
+                    <Carrito /> 
                 </div>
 
             </header>

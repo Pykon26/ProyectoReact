@@ -34,7 +34,7 @@ const ItemListContainer = () => {
 
         <div className="list_container">
 
-        <h2>Sentite Fresco </h2>
+        <h2>FrescosClub</h2>
         <ItemList productos={productos}/>
         </div>
 

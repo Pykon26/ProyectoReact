@@ -1,5 +1,5 @@
 import cart from '../../assets/cart-shopping-solid.svg'
-import './Cart.scss'
+import './Carrito.scss'
 
 
 const carrito = ()=>{
@@ -9,7 +9,6 @@ const carrito = ()=>{
         <div className='carrito'>
                 <img src={cart} alt="carrito" className='foto_carrito'/>
                 0
-                
         </div>
     )
 

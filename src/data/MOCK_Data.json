@@ -2,9 +2,9 @@
     {
         "id": 1,
         "nombre": "Buzo KOTK Brown",
-        "precio": 11645,
+        "precio": 41299,
         "descripcion": "Buzo oversize fit, con capucha. Aplique en el frente. Puños y cintura en ribb. \n\nMaterial: Frisa Premium.",
-        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/02c43e79-a879-4e26-bbf0-c19afb357001-a02b00803b2af8f48816802869520883-1024-1024.webp",
+        "img": "https://acdn.mitiendanube.com/stores/219/431/products/55fb246d-ad59-49bf-9c33-baa30d1a5609-a02b00803b2af8f48816887332557322-640-0.webp",
         "marca": "Kongo",
         "tipo": "Buzo",
         "stock": 10
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "nombre": "Campera College Brown",
-        "precio": 11645,
+        "precio": 55200,
         "descripcion": "Campera universitaria con cuello. Bordado en frente, mangas y espalda Puños y cintura tejidos\n\nMaterial: Frisa Premium",
         "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/fec04735-f149-4ab7-b74a-eaccbfe37128-84bc601b1ec0163cfa16823494742807-1024-1024.webp",
         "marca": "Kongo",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "nombre": "Chomba KOTK Off White",
-        "precio": 11645,
+        "precio": 21000,
         "descripcion": "Polo de rústico con cuello teijdo a contratono. Bordado en frente y espalda con aplique. Oversize fit",
         "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/6f51f3c4-4b8c-4b28-bcc0-63041385eaf6-149c4b4863391b9ded16802955167455-1024-1024.webp",
         "marca": "Kongo",
@@ -32,9 +32,9 @@
     {
         "id": 4,
         "nombre": "Pantalon Snaps",
-        "precio": 11645,
+        "precio": 19650,
         "descripcion": "-Pantalon recto con botones a los costados y bordado en bolsillo.\n\nMaterial: Gabardina",
-        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/223df6a8-cbf7-4acc-8114-8d1dd8466caf-e3967b221eff4d2eea16802864260157-1024-1024.webp",
+        "img": "https://acdn.mitiendanube.com/stores/219/431/products/71a242d6-f663-4074-a8ef-c9c43f77f70f-e3967b221eff4d2eea16887341445373-640-0.webp",
         "marca": "Kongo",
         "tipo": "Pantalon",
         "stock": 10
@@ -42,7 +42,7 @@
     {
         "id": 5,
         "nombre": "Jean Biggie 999",
-        "precio": 11645,
+        "precio": 23000,
         "descripcion": "COMPOSICIÓN: 100% algodón.\n\nCUIDADOS: Lavar con agua fría. No usar cloro.",
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0036-uai-960x1440.jpg",
         "marca": "H&W",
@@ -52,7 +52,7 @@
     {
         "id": 6,
         "nombre": "Hoodie Full Print Lightning",
-        "precio": 11645,
+        "precio": 35200,
         "descripcion": "COMPOSICIÓN: 100% algodón.\n\nCUIDADOS: Lavar con agua fría. No usar cloro.",
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0079-uai-960x1440.jpg",
         "marca": "H&W",
@@ -62,7 +62,7 @@
     {
         "id": 7,
         "nombre": "Hoodie Mixed Black",
-        "precio": 11645,
+        "precio": 42000,
         "descripcion": "COMPOSICIÓN: 100% algodón.\n\nCUIDADOS: Lavar con agua fría. No usar cloro.",
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0089-uai-960x1440.jpg",
         "marca": "H&W",
@@ -72,7 +72,7 @@
     {
         "id": 8,
         "nombre": "Fitz Matelasse",
-        "precio": 11645,
+        "precio": 58900,
         "descripcion": "COMPOSICIÓN: 100% poliester.\n\nCUIDADOS: Lavar con agua fría. No usar cloro.",
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0859-uai-960x1440.jpg",
         "marca": "H&W",
@@ -83,7 +83,7 @@
         "id": 9,
         "nombre": "Beanie Black Signature",
         "precio": 6660,
-        "descripcion": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "descripcion": "COMPOSICIÓN: 100% algodón.\n\nCUIDADOS: Lavar con agua fría. No usar cloro.",
         "img": "https://harveywillys.com/wp-content/uploads/2023/05/Harvey0855-uai-960x1440.jpg",
         "marca": "H&W",
         "tipo": "Accesororios",
@@ -102,7 +102,7 @@
     {
         "id": 11,
         "nombre": "Tee Black",
-        "precio": 11645,
+        "precio": 7899,
         "descripcion": "Tela Base: Friza",
         "img": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/022/845/products/web81-91a3e46c0288ff528616766783996461-640-0.webp",
         "marca": "G&F",

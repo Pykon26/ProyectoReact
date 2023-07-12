@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom"
+import './ItemCard.scss'
 
 
 const ItemCard = ({id, nombre, precio,marca, img}) => {
 
     return (
-        <div className='col-3 m-2'>
+        <div className='container-card col-5'>
             <h4>{nombre}</h4>   
             <img src={img} alt={nombre}/>
-            <p>Marca: {marca}</p>
-            <p>Precio: ${precio}</p>
-            <Link className="btn btn-primary" to={`/detalle/${id}`}>Ver más</Link>
+            <p><span>Marca:</span> {marca}</p>
+            <p> ${precio}</p>
+            <Link className="btn " to={`/detalle/${id}`}><button>Ver detalle</button></Link>
             <hr/>
 
         </div>

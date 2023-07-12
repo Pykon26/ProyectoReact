@@ -1,10 +1,11 @@
     import ItemCount from '../ItemCount/ItemCount'
+    import './ItemDetail.scss'
 
     const ItemDetail = ({id, nombre, precio, marca, descripcion, img, stock}) => {
         
         
         return (
-            <div>
+            <div className='container-detail-item'>
                 <h2>
                     {nombre}
                 </h2>
@@ -13,13 +14,13 @@
                 </picture>
                 <section>
                     <p className="Info">
-                        Marca: {marca}
+                    <span>Marca:</span> {marca}
                     </p>
                     <p className="Info">
-                        Descripción: {descripcion}
+                    <span>Descripción:</span> {descripcion}
                     </p>
                     <p className="Info">
-                        Precio: ${precio}
+                        <span>Precio:</span> ${precio}
                     </p>
                 </section>
 
