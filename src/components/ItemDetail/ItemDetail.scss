@@ -3,20 +3,21 @@
 
     picture{
         img{
-            background-color: aqua;
+            background-color: #34495e;
             padding: 3px;
-            height: 20rem;
+            height: 44rem;
+            border-radius: 5px;
         }
     }
     
     h2{
         text-align: center;
-        font-family: 'Lobster', cursive;
-        font-size: 1.8rem
+        font-family: 'Vollkorn SC', serif;
+        font-size: 2.2rem
     }
     
     p{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         font-family: 'Contrail One', cursive;
         
         span{
@@ -27,7 +28,7 @@
     
     
     .info-container{
-        background-color: red;
+        background-color: #dfdddd;
         width: 50rem;
         margin-top: 30px;
         border-radius: 5px 60px 
