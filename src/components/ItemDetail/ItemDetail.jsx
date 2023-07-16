@@ -14,7 +14,7 @@
             setQuantityAdded(quantity)
 
             const item = {
-                id,nombre,precio
+                id,nombre,precio,img
             }
 
             addItem(item,quantity)

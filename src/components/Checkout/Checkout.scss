@@ -1,0 +1,97 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #2c3e50;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-family: 'Contrail One', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .pink-btn {
+    background-color: #ff9999;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #ff6666;
+    }
+  }
+  
+  .error-message {
+    font-family: 'Contrail One', cursive;
+    font-size: 1rem;
+    color: #ff9999;
+  }
+  
+  .success-message {
+    font-family: 'Contrail One', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .link-btn {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: 'Contrail One', cursive;
+    font-size: 1.2rem;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .btn-enviar {
+    background-color: #6aa3b4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #47828f;
+    }
+  }
+  .btn-volver {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1a2733;
+    }
+  }
+  

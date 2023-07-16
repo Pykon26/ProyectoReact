@@ -1,0 +1,86 @@
+.container-cart {
+    padding: 1rem;
+  
+    h2 {
+      font-family: 'Vollkorn SC', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    div {
+      margin-bottom: 1rem;
+    }
+  
+    img {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 6px 20px #2c3e50;
+      
+    }
+    
+    h5{
+        font-family: 'Contrail One', cursive;
+        font-size:2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        background-color: #6aa3b4;
+        border-radius: 100px;
+    }
+    p {
+      font-family: 'Contrail One', cursive;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .btn-borra {
+      background-color: #ff9999;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      padding: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: #ff6666;
+      }
+    }
+  
+    .btn-vaciar {
+      background-color: #2c3e50;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-right: 1rem;
+  
+      &:hover {
+        background-color: #ff6666;
+        text-decoration: none;
+      }
+    }
+  
+    .btn-checkout {
+      background-color: #2c3e50;
+      color: #ffffff;
+      border: none;
+      text-decoration: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #20c67a;
+        text-decoration: none;
+      }
+    }
+  
+  }
+  

@@ -1,31 +1,42 @@
 import './ItemListContainer.scss'
 import ItemList from '../ItemList/ItemList'
 import { useState, useEffect } from 'react'
-import { pediDatos, getProductosByMarca } from '../../helpers/pediDatos'
 import { useParams } from 'react-router-dom'
-
+import { collection, getDocs, query, where } from 'firebase/firestore'
+import { db } from '../Firebase/config'
 
 
 
 
 const ItemListContainer = () => {
-    const [productos, setProductos] = useState([])
+    
+    const [loading, setLoading] = useState(true)
     
     const {marcaId} = useParams()
+    
+    const [productos, setProductos] = useState([])
 
 
     useEffect(() => {
-        const asyncFunc = marcaId ? getProductosByMarca : pediDatos
 
-        asyncFunc(marcaId)
-            .then(response => {
-                setProductos(response)
+        setLoading(true)
+
+        // 1.- armar una referencia (sync)
+        const productosRef = collection(db, "productos")
+        const q = marcaId 
+                    ? query(productosRef, where("marca", "==", marcaId))
+                    : productosRef
+        // 2.- peticion de esa referencia (async)
+        getDocs(q)
+            .then((resp) => {
+                const productos = resp.docs.map((doc) => ({...doc.data(), id: doc.id}))
+                setProductos(productos)
             })
-            .catch(error =>{
-                console.error(error)
-                })
-    },[marcaId])
+            .catch(e => console.log(e))
+            .finally(() => setLoading(false))
 
+
+    }, [marcaId])
 
 
 
@@ -35,7 +46,12 @@ const ItemListContainer = () => {
         <div className="list_container">
 
         <h2>FrescosClub</h2>
-        <ItemList productos={productos}/>
+        {
+                loading
+                    ? <h2>Cargando...</h2>
+                    : <ItemList productos={productos}/>
+            }
+        {/* <ItemList productos={productos}/> */}
         </div>
 
         
