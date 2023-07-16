@@ -7,27 +7,27 @@
         "img": "https://acdn.mitiendanube.com/stores/219/431/products/55fb246d-ad59-49bf-9c33-baa30d1a5609-a02b00803b2af8f48816887332557322-640-0.webp",
         "marca": "Kongo",
         "tipo": "Buzo",
-        "stock": 10
+        "stock": 8
     },
     {
         "id": 2,
         "nombre": "Campera College Brown",
-        "precio": 55200,
+        "precio": 51990,
         "descripcion": "Campera universitaria con cuello. Bordado en frente, mangas y espalda Puños y cintura tejidos\n\nMaterial: Frisa Premium",
-        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/fec04735-f149-4ab7-b74a-eaccbfe37128-84bc601b1ec0163cfa16823494742807-1024-1024.webp",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/229f7091-b563-44a5-b7d4-bed954153d45-84bc601b1ec0163cfa16887338234456-1024-1024.webp",
         "marca": "Kongo",
         "tipo": "Campera",
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 3,
         "nombre": "Chomba KOTK Off White",
         "precio": 21000,
         "descripcion": "Polo de rústico con cuello teijdo a contratono. Bordado en frente y espalda con aplique. Oversize fit",
-        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/6f51f3c4-4b8c-4b28-bcc0-63041385eaf6-149c4b4863391b9ded16802955167455-1024-1024.webp",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/f9f57473-bdec-4f18-97cb-d215f3500e3a-149c4b4863391b9ded16887326043726-1024-1024.webp",
         "marca": "Kongo",
         "tipo": "Remera",
-        "stock": 10
+        "stock": 18
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "img": "https://acdn.mitiendanube.com/stores/219/431/products/71a242d6-f663-4074-a8ef-c9c43f77f70f-e3967b221eff4d2eea16887341445373-640-0.webp",
         "marca": "Kongo",
         "tipo": "Pantalon",
-        "stock": 10
+        "stock": 6
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0036-uai-960x1440.jpg",
         "marca": "H&W",
         "tipo": "Pantalon",
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0079-uai-960x1440.jpg",
         "marca": "H&W",
         "tipo": "Buzo",
-        "stock": 10
+        "stock": 17
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0089-uai-960x1440.jpg",
         "marca": "H&W",
         "tipo": "Buzo",
-        "stock": 10
+        "stock": 13
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "img": "https://harveywillys.com/wp-content/uploads/2023/06/Harvey0859-uai-960x1440.jpg",
         "marca": "H&W",
         "tipo": "Campera",
-        "stock": 10
+        "stock": 5
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "img": "https://harveywillys.com/wp-content/uploads/2023/05/Harvey0855-uai-960x1440.jpg",
         "marca": "H&W",
         "tipo": "Accesororios",
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "img": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/022/845/products/web4021-97e34fbd9d72312fa316812386871910-640-0.webp",
         "marca": "G&F",
         "tipo": "Buzo",
-        "stock": 10
+        "stock": 18
     },
     {
         "id": 11,
@@ -117,7 +117,7 @@
         "img": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/022/845/products/web471-8bffad2d0c89650d1a16841719645013-640-0.webp",
         "marca": "G&F",
         "tipo": "Accesororios",
-        "stock": 10
+        "stock": 20
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "img": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/022/845/products/web281-a58e7ac318ce42165316823548500525-640-0.webp",
         "marca": "G&F",
         "tipo": "Pantalon",
-        "stock": 10
+        "stock": 11
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/188/770/products/remera_energia-del-sol_negro_dorso1-602491888c3870f20016820995986620-640-0.webp",
         "marca": "Luxo",
         "tipo": "Remera",
-        "stock": 10
+        "stock": 7
     },
     {
         "id": 15,   
@@ -147,7 +147,7 @@
         "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/188/770/products/pantalon-ringo-negro_jota1-af6acde928c3cca61216830549961928-640-0.webp",
         "marca": "Luxo",
         "tipo": "Pantalon",
-        "stock": 10
+        "stock": 5
     },
     {
         "id": 16,
@@ -157,7 +157,7 @@
         "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/188/770/products/hoodie_anorak-polar_camel_frente1-094b91a44927aac63b16867459601261-640-0.webp",
         "marca": "Luxo",
         "tipo": "Buzo",
-        "stock": 10
+        "stock": 14
     },
 
     {

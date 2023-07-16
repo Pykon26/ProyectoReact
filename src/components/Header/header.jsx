@@ -3,7 +3,6 @@ import logo from '../../assets/Logo Fresco.jpg'
 import Carrito  from '../Carrito/Carrito'
 import Navbar from '../Navbar/navbar'
 import { Link } from 'react-router-dom'
-
 const header = () => {
 
 

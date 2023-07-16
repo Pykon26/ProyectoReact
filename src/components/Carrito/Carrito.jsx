@@ -1,16 +1,22 @@
-import cart from '../../assets/cart-shopping-solid.svg'
 import './Carrito.scss'
 import { GiShoppingBag } from "react-icons/gi";
+import { CartContext } from '../../context/CartContext';
+import { useContext } from 'react';
 
 const carrito = ()=>{
 
-    return (
+const {totalCantidad} = useContext(CartContext)
 
+    return (
+    
         <div className='carrito'>
-           <div><GiShoppingBag /></div>
-            <p>0</p>   
+        <div className="icon-container">
+          <GiShoppingBag className='icon'/>
+        
+        <p className='quantity'>{totalCantidad()}</p>
 
         </div>
+      </div>
     )
 
 

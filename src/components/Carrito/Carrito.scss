@@ -1,8 +1,36 @@
 
-.carrito{
+.carrito {
+    position: relative; 
     align-items: center;
     display: flex;
-    div{
-        font-size: 3rem;
-    }
-}
+    font-family: 'Contrail One', cursive;
+    transition: transform 0.3s ease; 
+
+  }
+  
+  .icon-container {
+    position: relative;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    transition: transform 0.3s ease; 
+  }
+  
+  .quantity {
+    font-size: 1.5rem;
+    position: absolute;
+    top: -0.5rem; 
+    right: -0.7rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+  
+  .carrito:hover {
+    transform: scale(1.1); 
+    background-color: #fada4a;
+    border-radius: 10px;
+  }
+  
+
+
