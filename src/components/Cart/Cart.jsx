@@ -7,16 +7,15 @@ import { BiSolidTrash } from "react-icons/bi";
 const Cart = () => {
 const {cart, addItem, removeItem, totalCantidad,totalCompra, clearCart} = useContext (CartContext)
 
-    if (totalCantidad === 0) {
-
+    if (totalCantidad() === 0) {
         return (
-            <div>
-                <h1>Todavia no hay productos</h1>
-                <Link to="/" className='Option'>Ir a Comprar</Link>
-            </div>
-        )
-
-    }
+          <div className='container-vacio-cart'>
+            <h1 >Todavía no hay productos</h1>
+            <Link to="/" className="Option">Ir a Comprar</Link>
+          </div>
+        );
+      }
+      
 
 
     return (
