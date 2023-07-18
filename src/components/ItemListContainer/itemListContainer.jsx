@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../Firebase/config'
-
+import Loader from '../Loader/Loader'
 
 
 
@@ -46,12 +46,14 @@ const ItemListContainer = () => {
         <div className="list_container">
 
         <h2>FrescosClub</h2>
+        <div className='loader-container'>
         {
                 loading
-                    ? <h2>Cargando...</h2>
+                    ?<Loader />
                     : <ItemList productos={productos}/>
             }
-        {/* <ItemList productos={productos}/> */}
+        </div>
+
         </div>
 
         
